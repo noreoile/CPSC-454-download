@@ -17,7 +17,7 @@ class LeftSidebar extends React.Component {
 					<div className="item">
 						<HistoryPopUp />
 					</div>
-					<h3>-- Server 1 -- </h3>
+					<h3>-- Server 2 -- </h3>
 				</div>
 			</div>
 		);
