@@ -79,7 +79,7 @@ class App extends React.Component {
 							<LeftSidebar />
 						</div>
 						<div className="nine wide column">
-							<VideoDetail video={this.state.selectedVideo} />
+							<VideoDetail video={this.state.selectedVideo}/>
 						</div>
 						<div className="four wide column">
 							<VideoList

@@ -8,7 +8,7 @@ class LeftSidebar extends React.Component {
 		return (
 			<div className="left-sidebar">
 				<div className="sidebar-items">
-					<a href="/CPSC-454-Project" className="item">
+					<a href="/" className="item">
 						<button className="ui basic button custom-button">
 							<i className="icon home"></i>
 							<span className="text">Home</span>
@@ -17,7 +17,7 @@ class LeftSidebar extends React.Component {
 					<div className="item">
 						<HistoryPopUp />
 					</div>
-					<h3>-- Server 2 -- </h3>
+					{/* <h3>-- Server 1 -- </h3> */}
 				</div>
 			</div>
 		);
